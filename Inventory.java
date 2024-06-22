@@ -1,4 +1,3 @@
-package RicksStudio;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -13,7 +12,7 @@ public class Inventory {
     }
     public Guitar getGuitar(String serialNumber){
         for(Guitar g : guitars){
-            if(g.getSerialNumber() == serialNumber){
+            if(g.getSerialNumber().equals(serialNumber)){
                 return g;
             }
         }
