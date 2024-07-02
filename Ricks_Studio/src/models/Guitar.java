@@ -1,3 +1,4 @@
+package models;
 
 public class Guitar {
     private String serialNumber, topWood, backWood, builder, model, type;
